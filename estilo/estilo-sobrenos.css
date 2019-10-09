@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #f0f0f0;
+}
+/* header */
+header{
+    background-color: white;    
+}
+
+header div.container img{
+    width: 150px;
+}
+
+header div.container ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-secao{
+    font-size: 1.6rem;
+}
+
+.subtitulo-secao{
+    font-size: 1rem;
+}
+
+/* Banner */
+section.banner .card{
+    margin: 0px 70px;
+    height: 200px;
+}
+
+section.banner img{
+    height: inherit;
+}
+
+
+
+/* navegação página */
+
+section.navegacao{
+    margin: 20px 300px;
+    border: solid 1px #fff;
+}
+
+section.navegacao a{
+    color: black;
+}
+
+
+/* Sobre a empresa */
+div.conteudo .container a{
+    color: white;
+    justify-content: center;
+}
+
+section.container-empresa{
+    margin: 100px 300px 100px 300px;
+    justify-content: center;
+}
+
+section.lideranca .card-group .card{
+    margin: 15px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Lideranças */
+section.lideranca .card-group{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.lideranca .card-group .card-img-top{
+    height: 200px;
+    background-size: cover;
+}
+
+/* contato */
+
+section#contato{
+    width: 500px;
+    margin: 0px 0px 40px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer */
+footer{
+    background-color: black;
+}
+
+footer div.logotipo a img{
+    width: 150px;
+}
+
+.footer-subtitulo{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer-listas{
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footer-listas a{
+    color:white;
+}
+
+.social-media-icons{
+    width: 40px;
+}
+
+
