@@ -32,8 +32,9 @@ header div.container ul li a{
 
 /* Banner */
 section.banner .card{
-    margin: 0px 70px;
+    margin: 20px 70px;
     height: 300px;
+    border: none;
 }
 
 section.banner img{
@@ -42,56 +43,71 @@ section.banner img{
     object-fit: cover;
 }
 
-
 /* navegação página */
 
 section.navegacao{
-    margin: 20px 300px;
-    border: solid 1px #fff;
+    max-width: 70vw;
+    border: solid 1px #7aa9f5;
+    margin: auto;
 }
 
 section.navegacao a{
     color: black;
 }
 
-
-/* Sobre a empresa */
 div.conteudo .container a{
     color: white;
     justify-content: center;
 }
 
-section.container-empresa{
-    margin: 100px 300px 100px 300px;
+/* Liderança */
+
+section#empresa{
+    max-width: 70vw;
+    margin: auto;
+    padding: 100px;
     justify-content: center;
 }
 
-section.lideranca .card-group .card{
-    margin: 15px;
-    max-width: 500px;
-    width: 100%;
+/* Lideranças */
+
+section.lideranca h2{
+    padding: 30px;
 }
 
-/* Lideranças */
+section.lideranca .card-group .card{
+    max-width: 70vw;
+    margin: auto;
+}
+
 section.lideranca .card-group{
-    margin-left: 150px;
-    margin-right: 150px;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
 }
 
 section.lideranca .card-group .card-img-top{
     height: 200px;
-    background-size: cover;
+    object-fit: cover;
 }
+
+/* Cultura */
+
+section#cultura{
+    max-width: 70vw;
+    margin: auto;
+    padding: 100px;
+    justify-content: center;
+}
+
 
 /* contato */
 
 section#contato{
-    width: 500px;
-    margin: 0px 0px 40px 0px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 70vw;
+    margin: auto;
+    padding: 100px;
+    justify-content: center;
 }
 
 /* footer */
@@ -122,5 +138,3 @@ footer div.logotipo a img{
 .social-media-icons{
     width: 40px;
 }
-
-
