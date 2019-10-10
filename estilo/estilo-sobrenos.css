@@ -33,13 +33,14 @@ header div.container ul li a{
 /* Banner */
 section.banner .card{
     margin: 0px 70px;
-    height: 200px;
+    height: 300px;
 }
 
 section.banner img{
     height: inherit;
+    width: 100%;
+    object-fit: cover;
 }
-
 
 
 /* navegação página */
