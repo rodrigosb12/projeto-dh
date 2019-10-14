@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 15px;
+}
+
+header {
+    font-size: 1.3rem;
+}
+
+header nav a img {
+    width: 200px;
+}
+
+nav.navbar {
+    position: relative;
+}
+
+header div.container ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.produto-imagem {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 100vh;
+}
+
+
+.img-princ {
+
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 100vh;
+
+
+}
+
+.secao-produto {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.prev-produto {
+    padding: 0px;
+    margin: 20px;
+    width: 100vh;
+    display: inline-block;
+    
+}
+
+.multi-imagem {
+
+    padding: 0px;
+    margin: 0px;
+    width: 100vh;
+    justify-content: center;        
+
+}
+
+.img-mt {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.sel-img {
+    width: 24.5vh;
+    padding: 0px;
+    margin: 1px;
+    display: flex;
+}
+
+
+.preco-produto {
+    font-size: 1.4rem;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.artigo-produto {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.titulo-secao {
+    font-size: 1.6rem;
+}
+
+.titulo-produto {
+    font-size: 1.6rem;
+}
+
+
+
+.subtitulo-secao {
+    font-size: 1.2rem;
+}
+
+a.subtitulo-link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover.subtitulo-link {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #e1f5fe;
+}
+
+footer div.logotipo a img {
+    width: 150px;
+}
+
+.footer-subtitulo {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.footer-listas {
+    list-style: none;
+    font-size: 0.9rem;
+    color: black;
+    padding: 0;
+}
+
+a.footer-link {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+a.icone-rede-social {
+    font-size: 40px;
+    color: #424242;
+    padding: 0 5px;
+}
+
+a:hover.icone-rede-social {
+    font-size: 40px;
+    color: black;
+}
+
+
+/* .social-media-icons{
+    width: 40px;
+} */
+
+/* .footer-links{
+    color: black;
+} */
