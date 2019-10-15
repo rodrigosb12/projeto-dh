@@ -1,20 +1,45 @@
-.estilo-logo{
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.estilo-logo {
     width: 30px;
     height: 30px;
+    margin: 0;
+    padding: 0;
 }
-.estilo-paragrafo{
+
+.estilo-texto1 {
     text-align: center;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 15px;
 }
-.estilo-paragrafo2{
+
+.estilo-texto2 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.estilo-texto3 {
     text-align: center;
     margin-top: 20px;
 }
-.estilo-paragrafo3{
+
+.estilo-texto4 {
     text-align: center;
     font-size: 15px;
     margin-bottom: 25px;
     margin-top: 25px;
 }
-.botao{
-  margin-bottom: 20px;
+
+.botao {
+    margin-bottom: 20px;
+}
+
+.tamanho-modal {
+    margin-left: 55px;
+    width: 80%;
 }
