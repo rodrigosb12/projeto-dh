@@ -22,7 +22,26 @@ header div.container ul li a{
 }
 
 .carrossel-imagem{
-    height: 90vh;
+    height: 75vh;
+    object-fit: cover;    
+}
+
+.card-img-top{
+    height: 35vh;
+    object-fit: cover;
+}
+
+i.bottom-comment{
+    padding-right: 10px;
+}
+
+div.card-body{
+    padding: 0.75rem;
+}
+
+p.card-bottom{
+    margin: 0;
+    font-size: 0.7rem;
 }
 
 .titulo-secao{
