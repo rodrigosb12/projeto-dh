@@ -32,7 +32,7 @@ header div.container ul li a{
 }
 
 i.bottom-comment{
-    padding-right: 10px;
+    margin-right: 7px;
 }
 
 div.card-body{
@@ -41,15 +41,127 @@ div.card-body{
 
 p.card-bottom{
     margin: 0;
+    font-size: 0.68rem;
+}
+
+p.preco-de{
+    color: #9f9e9e;
+    text-decoration: line-through;
+}
+
+a.card-icone-comentarios{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover.card-icone-comentarios{
+    text-decoration: none;
+    color: black;
+}
+
+a.card-icone-likes{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover.card-icone-likes{
+    text-decoration: none;
+    color: black;
+}
+
+div.posts-preenchimento{
+    background-color: #f0f0f0;
+}
+
+div.container.posts-fotos{
+    background-color: #f0f0f0;
+}
+
+div.container.posts-guias{
+    background-color: #f0f0f0;
+}
+
+div.container.posts-questoes{
+    background-color: #f0f0f0;
+}
+
+a.card-title{
+    text-decoration: none;
+    color: black;
+}
+
+p.card-text.destaque{
     font-size: 0.7rem;
+}
+
+p.card-text.post-user{
+    font-size: 0.8rem;
+}
+
+a.post-user{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.post-user{
+    text-decoration: none;
+    color: orange;
+}
+
+a.post-titulo{
+    text-decoration: none;
+    color: black;
+}
+
+p.card-text.post-text{
+    font-size: 0.8rem;
+}
+
+a.post-text{
+    text-decoration: none;
+    color: black;
+}
+
+p.card-text.post-data{
+    font-size: 0.6rem;
+}
+
+p.card-text.post-comunidade{
+    font-size: 0.8rem;
+}
+
+a.post-comunidade{
+    text-decoration: none;
+    color: black;
+}
+
+p.card-text.post-tipo{
+    font-size: 0.8rem;
+}
+
+a.post-tipo{
+    text-decoration: none;
+    color: black;
+}
+
+p.card-text.post-qte-likes{
+    font-size: 0.8rem;
+}
+
+p.card-text.post-qte-comentarios{
+    font-size: 0.8rem;
 }
 
 .titulo-secao{
     font-size: 1.6rem;
 }
 
+.titulo-secao-continuacao{
+    font-size: 1.1rem;
+}
+
 .subtitulo-secao{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 a.subtitulo-link{
@@ -102,12 +214,3 @@ a:hover.icone-rede-social{
     font-size: 40px;
     color: black;
 }
-
-
-/* .social-media-icons{
-    width: 40px;
-} */
-
-/* .footer-links{
-    color: black;
-} */
