@@ -35,11 +35,12 @@ header div.container ul li a {
 
 
 .img-princ {
-
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    width: 100vh;
+   
+     padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-flex;
 
 
 }
@@ -52,33 +53,62 @@ header div.container ul li a {
 
 .prev-produto {
     padding: 0px;
-    margin: 20px;
-    width: 100vh;
+    margin: px;
+    width: 100%;
     display: inline-block;
+}
+
+
+
+.princ-img {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-flex;
+
+}
+
+
+\\.div-princ-img {
+    position: absolute;
+
+}
+
+.mult-img {
+    max-width: auto;
+    width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-flex;
     
 }
 
-.multi-imagem {
-
-    padding: 0px;
-    margin: 0px;
-    width: 100vh;
-    justify-content: center;        
-
-}
 
 .img-mt {
-    display: block;
-    margin: 0px;
-    padding: 0px;
+     max-width: auto;
+    width: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-flex;
     
+    
+
 }
 
 .sel-img {
-    width: 24.5vh;
-    padding: 0px;
-    margin: 1px;
-    display: flex;
+    
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-flex;
 }
 
 
@@ -105,7 +135,25 @@ header div.container ul li a {
     font-size: 1.6rem;
 }
 
+.button-img {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
 
+.button-img:hover {
+    background-color: green;
+}
+
+.button-img {
+    position: relative;
+}
 
 .subtitulo-secao {
     font-size: 1.2rem;
