@@ -10,11 +10,11 @@ body{
 }
 /* header */
 header{
-    background-color: white;    
+    font-size: 1.3rem;    
 }
 
-header div.container img{
-    width: 150px;
+header nav a img{
+    width: 200px;
 }
 
 header div.container ul li a{
@@ -60,10 +60,10 @@ div.conteudo .container a{
     justify-content: center;
 }
 
-/* Liderança */
+/* Empresa */
 
 section#empresa{
-    max-width: 70vw;
+    max-width: 90vw;
     margin: auto;
     padding: 100px;
     justify-content: center;
@@ -75,18 +75,8 @@ section.lideranca h2{
     padding: 30px;
 }
 
-section.lideranca .card-group .card{
-    max-width: 70vw;
-    margin: auto;
-}
 
-section.lideranca .card-group{
-    max-width: 70vw;
-    margin: auto;
-    justify-content: center;
-}
-
-section.lideranca .card-group .card-img-top{
+section.lideranca .card img{
     height: 200px;
     object-fit: cover;
 }
