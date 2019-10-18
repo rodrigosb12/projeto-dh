@@ -77,7 +77,7 @@ header div.container ul li a {
 }
 
 .mult-img {
-    max-width: auto;
+    
     width: auto;
     padding-left: 0px;
     padding-right: 0px;
@@ -89,7 +89,7 @@ header div.container ul li a {
 
 
 .img-mt {
-     max-width: auto;
+   
     width: auto;
     padding-left: 0px;
     padding-right: 0px;
@@ -127,12 +127,17 @@ header div.container ul li a {
 
 }
 
+
 .titulo-secao {
     font-size: 1.6rem;
 }
 
 .titulo-produto {
     font-size: 1.6rem;
+}
+
+.menu-central{
+    justify-content: center;
 }
 
 .button-img {
