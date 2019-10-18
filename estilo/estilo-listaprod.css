@@ -10,7 +10,7 @@ body{
 
 /* header */
 header{
-    font-size: 1.3rem;    
+    font-size: 1.3rem;
 }
 
 header nav a img{
@@ -63,4 +63,10 @@ a.icone-rede-social{
 a:hover.icone-rede-social{
     font-size: 40px;
     color: black;
+}
+
+/* cabecalho */
+
+section.cabecalho{
+    display: block;
 }

@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9cae312f00.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilo/estilo-index.css">
+    <link rel="stylesheet" href="estilo/estilo-listaprod.css">
+    
     <title>Lista Produto</title>
 </head>
 <body>
-    <header>
+    <header class="container">
         <nav class="navbar fixed-top navbar-expand-lg navbar-light border-bottom" style="background-color: white;">
             <a class="navbar-brand" href="index.html">
                 <img src="img/logos/Wimart-logo-right-icon.png" alt="logotipo">
@@ -57,6 +58,27 @@
         </nav>
     </header>
 
+    <section class="filtros container">
+        <div class="cabecalho">
+        <div class="loja">
+                <h2 class="titulo">Loja - Produtos</h2>
+        </div>
+        
+        <div>
+            <button type="button" class="btn btn-outline-dark">Esconder filtros</button>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ordenar por:
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Recomendado</a>
+                <a class="dropdown-item" href="#">Mais Novos</a>
+                <a class="dropdown-item" href="#">Melhores Avaliados</a>
+            </div>
+        </div>
+        </div>
+    </section>
 
 
 
@@ -112,7 +134,6 @@
             </div>
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 </script>
