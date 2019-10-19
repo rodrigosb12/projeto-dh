@@ -69,7 +69,8 @@ a:hover.icone-rede-social{
 /* cabecalho */
 
 section.cabecalho{
-    display: block;
+    justify-content: space-around;
+    height: 15vh;
 }
 
 /* produtos */
@@ -227,9 +228,3 @@ a:hover.subtitulo-link{
     color: black;
 }
 
-
-/* filtros */
-
-section.cabecalho{
-    height: 15vh;
-}
