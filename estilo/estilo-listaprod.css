@@ -6,11 +6,11 @@ html{
 
 body{
     font-family: 'Oswald', sans-serif;
+    background-color: #f0f0f0;
 }
-
 /* header */
 header{
-    font-size: 1.3rem;
+    font-size: 1.3rem;    
 }
 
 header nav a img{
@@ -21,6 +21,7 @@ header div.container ul li a{
     text-decoration: none;
     color: black;
 }
+
 
 /* footer */
 
@@ -229,6 +230,6 @@ a:hover.subtitulo-link{
 
 /* filtros */
 
-section.filtros{
+section.cabecalho{
     height: 15vh;
 }
