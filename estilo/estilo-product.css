@@ -136,8 +136,27 @@ header div.container ul li a {
     font-size: 1.6rem;
 }
 
+.menu-produc{
+display: inline;
+margin-left: 0px;
+margin-right: 0px;
+align-items: center;
+}
+
 .menu-central{
     justify-content: center;
+}
+
+.lk-menu-produc{
+margin-left: 100px;
+margin-right: 100px;
+
+}
+
+#ctl00_Body_ibtnComprar{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 25%;
 }
 
 .button-img {
