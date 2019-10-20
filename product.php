@@ -1,69 +1,12 @@
-<!doctype html>
-<html lang="pt-br">
+<?php require_once('header.php'); ?>
 
-<head>
-    <title>Produto - Wimart</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/9cae312f00.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilo/estilo-product.css">
-</head>
-
-<body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light border-bottom" style="background-color: white;">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logos/Wimart-logo-right-icon.png" alt="logotipo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Shop<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Studio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Comunidades
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-uppercase" href="#">Audio</a>
-                            <a class="dropdown-item text-uppercase" href="#">Relógios</a>
-                            <a class="dropdown-item text-uppercase" href="#">Outdoors</a>
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2 text-uppercase" type="busca" placeholder="Busca"
-                        aria-label="Busca">
-                    <a href="" class="text-reset"><i class="fas fa-search"></i></a>
-                </form>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Sign Up<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Login</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
     <section class="row secao-produto">
         <div class="produto-imagem">
 
             <div class="row princ-img">
                 <div class="div-princ-img">
                     <a href="#"><img class="container img-princ" src="img/produtos/audio-10.jpg" /></a>
-
+ 
                 </div>
 
             </div>
@@ -124,7 +67,7 @@
     </section>
 
     <section class="container menu-produc">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <nav class=" navbar-expand-lg navbar-light bg-light justify-content-center">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
@@ -165,7 +108,7 @@
                         <div class="col-12 py-0 px-0">
 
                             <div id="ctl00_Body_dvEspecificacaoAdicionalTop" class="d-none d-lg-block"></div>
-                            <div id="descricaoPadrao" itemprop="description">
+                            <div id="descricaoPadrao" class="ml-2 mr-2" itemprop="description">
 
                                 <br><b>THE WORLD’S MOST LINEAR AMPLIFIER</b>
                                 <br>
@@ -504,62 +447,4 @@
         <hr>
     </section>
 
-    <footer class=" col mt-4 border-top">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col logotipo d-flex justify-content-center">
-                    <a href="index.html">
-                        <img src="img/logos/Wimart-logo-top-icon.png" alt="logotipo">
-                    </a>
-                </div>
-                <div class="col sobre">
-                    <h3 class="footer-subtitulo">Sobre</h3>
-                    <ul class="footer-listas">
-                        <li>
-                            <a href="sobrenos.html" class="footer-link">Sobre o Wimart</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-link">Sobre o Wimart Studio</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-link">Trabalhe conosco</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-link">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col suporte">
-                    <h3 class="footer-subtitulo">Suporte</h3>
-                    <ul class="footer-listas">
-                        <li>
-                            <a href="#" class="footer-link">Regras gerais</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer-link">FAQ</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col redes-sociais">
-                    <h3 class="footer-subtitulo">Siga o Wimart</h3>
-                    <a href="#" class="icone-rede-social"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="icone-rede-social"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="icone-rede-social"><i class="fab fa-twitter-square"></i></a>
-                    <a href="#" class="icone-rede-social"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-</body>
-
-</html>
+<?php require_once('footer.php'); ?>

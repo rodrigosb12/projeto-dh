@@ -21,6 +21,10 @@ header div.container ul li a{
     color: black;
 }
 
+.margin-carousel{
+    margin-top: 8%;
+}
+
 .carrossel-imagem{
     height: 75vh;
     object-fit: cover;    

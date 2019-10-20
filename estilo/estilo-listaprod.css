@@ -8,69 +8,13 @@ body{
     font-family: 'Oswald', sans-serif;
     background-color: #f0f0f0;
 }
-/* header */
-header{
-    font-size: 1.3rem;    
-}
-
-header nav a img{
-    width: 200px;
-}
-
-header div.container ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-
-/* footer */
-
-footer{
-    background-color: #e1f5fe;
-}
-
-footer div.logotipo a img{
-    width: 150px;
-}
-
-.footer-subtitulo{
-    font-size: 1.2rem;
-    color: black;
-}
-
-.footer-listas{
-    list-style: none;
-    font-size: 0.9rem;
-    color: black;
-    padding: 0;
-}
-
-a.footer-link{
-    text-decoration: none;
-    color: grey;
-}
-
-a:hover.footer-link{
-    text-decoration: none;
-    color: black;
-}
-
-a.icone-rede-social{
-    font-size: 40px;
-    color: #424242;
-    padding: 0 5px;
-}
-
-a:hover.icone-rede-social{
-    font-size: 40px;
-    color: black;
-}
 
 /* cabecalho */
 
 section.cabecalho{
     justify-content: space-around;
     height: 15vh;
+    margin-top:8%;
 }
 
 /* produtos */

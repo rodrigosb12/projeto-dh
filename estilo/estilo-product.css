@@ -6,24 +6,6 @@ html {
 
 body {
     font-family: 'Oswald', sans-serif;
-    margin: 15px;
-}
-
-header {
-    font-size: 1.3rem;
-}
-
-header nav a img {
-    width: 200px;
-}
-
-nav.navbar {
-    position: relative;
-}
-
-header div.container ul li a {
-    text-decoration: none;
-    color: black;
 }
 
 .produto-imagem {
@@ -33,20 +15,17 @@ header div.container ul li a {
     width: 100vh;
 }
 
-
 .img-princ {
    
-     padding-left: 0px;
+    padding-left: 0px;
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
     display: inline-flex;
-
-
 }
 
 .secao-produto {
-    margin: 0px;
+    margin-top: 8%;
     padding: 0px;
     display: flex;
 }
@@ -58,8 +37,6 @@ header div.container ul li a {
     display: inline-block;
 }
 
-
-
 .princ-img {
 
     padding-left: 0px;
@@ -67,13 +44,10 @@ header div.container ul li a {
     margin-left: 0px;
     margin-right: 0px;
     display: inline-flex;
-
 }
-
 
 \\.div-princ-img {
     position: absolute;
-
 }
 
 .mult-img {
@@ -84,25 +58,18 @@ header div.container ul li a {
     margin-left: 0px;
     margin-right: 0px;
     display: inline-flex;
-    
 }
 
-
 .img-mt {
-   
     width: auto;
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
     display: inline-flex;
-    
-    
-
 }
 
 .sel-img {
-    
     padding-right: 2px;
     padding-left: 2px;
     padding-top: 2px;
@@ -110,7 +77,6 @@ header div.container ul li a {
     margin-right: 0px;
     display: inline-flex;
 }
-
 
 .preco-produto {
     font-size: 1.4rem;
@@ -124,9 +90,7 @@ header div.container ul li a {
     display: block;
     margin: 0px;
     padding: 0px;
-
 }
-
 
 .titulo-secao {
     font-size: 1.6rem;
@@ -137,10 +101,10 @@ header div.container ul li a {
 }
 
 .menu-produc{
-display: inline;
-margin-left: 0px;
-margin-right: 0px;
-align-items: center;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
 }
 
 .menu-central{
@@ -148,9 +112,8 @@ align-items: center;
 }
 
 .lk-menu-produc{
-margin-left: 100px;
-margin-right: 100px;
-
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #ctl00_Body_ibtnComprar{
@@ -192,53 +155,3 @@ a:hover.subtitulo-link {
     text-decoration: none;
     color: black;
 }
-
-footer {
-    background-color: #e1f5fe;
-}
-
-footer div.logotipo a img {
-    width: 150px;
-}
-
-.footer-subtitulo {
-    font-size: 1.2rem;
-    color: black;
-}
-
-.footer-listas {
-    list-style: none;
-    font-size: 0.9rem;
-    color: black;
-    padding: 0;
-}
-
-a.footer-link {
-    text-decoration: none;
-    color: grey;
-}
-
-a:hover.footer-link {
-    text-decoration: none;
-    color: black;
-}
-
-a.icone-rede-social {
-    font-size: 40px;
-    color: #424242;
-    padding: 0 5px;
-}
-
-a:hover.icone-rede-social {
-    font-size: 40px;
-    color: black;
-}
-
-
-/* .social-media-icons{
-    width: 40px;
-} */
-
-/* .footer-links{
-    color: black;
-} */
