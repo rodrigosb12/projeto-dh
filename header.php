@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="estilo/estilo-listaprod.css">
     <link rel="stylesheet" href="estilo/estilo-product.css">
     <link rel="stylesheet" href="estilo/estilo-sobrenos.css">
+    <link rel="stylesheet" href="estilo/estilo-modal-login.css">
         
 </head>
 
 <body>
 <header>
+    <?php require_once('modal-login.php'); ?>
+
         <nav class="navbar fixed-top navbar-expand-lg navbar-light border-bottom" style="background-color: white;">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.php">
                 <img src="img/logos/Wimart-logo-right-icon.png" alt="logotipo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -54,13 +57,14 @@
                         <a class="nav-link text-uppercase" href="#">Sign Up<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Login</a>
+                        <a class="nav-link text-uppercase" href="modal-login.php" data-toggle="modal" data-target="#modalExemplo">Login</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
+     
 
 
 

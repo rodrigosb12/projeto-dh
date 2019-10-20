@@ -2,7 +2,7 @@
         <div class="container py-4">
             <div class="row">
                 <div class="col logotipo d-flex justify-content-center">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="img/logos/Wimart-logo-top-icon.png" alt="logotipo">
                     </a>
                 </div>
@@ -10,7 +10,7 @@
                     <h3 class="footer-subtitulo">Sobre</h3>
                     <ul class="footer-listas">
                         <li>
-                            <a href="sobrenos.html" class="footer-link">Sobre o Wimart</a>
+                            <a href="sobrenos.php" class="footer-link">Sobre o Wimart</a>
                         </li>
                         <li>
                             <a href="#" class="footer-link">Sobre o Wimart Studio</a>
