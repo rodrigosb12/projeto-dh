@@ -30,11 +30,11 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Shop<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-uppercase" href="listaprod.php">Shop<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link text-uppercase" href="#">Studio</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,9 +53,9 @@
                     <a href="" class="text-reset"><i class="fas fa-search"></i></a>
                 </form>
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link text-uppercase" href="#">Sign Up<span class="sr-only">(current)</span></a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link text-uppercase" href="modal-login.php" data-toggle="modal" data-target="#modalExemplo">Login</a>
                     </li>

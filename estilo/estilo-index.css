@@ -1,3 +1,5 @@
+/* ESTILO APLICÁVEL A TODAS AS PÁGINAS */
+
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
 
 html{
@@ -7,6 +9,8 @@ html{
 body{
     font-family: 'Oswald', sans-serif;
 }
+
+/* HEADER */
 
 header{
     font-size: 1.3rem;    
@@ -21,14 +25,38 @@ header div.container ul li a{
     color: black;
 }
 
-.margin-carousel{
-    margin-top: 8%;
-}
+/* CARROSSEL */
 
 .carrossel-imagem{
     height: 75vh;
     object-fit: cover;    
 }
+
+/* TÍTULOS E SUBTÍTULOS DAS SEÇÕES */
+
+.titulo-secao{
+    font-size: 1.6rem;
+}
+
+.titulo-secao-continuacao{
+    font-size: 1.1rem;
+}
+
+.subtitulo-secao{
+    font-size: 1.6rem;
+}
+
+a.subtitulo-link{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover.subtitulo-link{
+    text-decoration: none;
+    color: black;
+}
+
+/* CARDS DE PRODUTOS */
 
 .card-img-top{
     height: 35vh;
@@ -73,20 +101,25 @@ a:hover.card-icone-likes{
     color: black;
 }
 
+/* CARD POSTS */
+
 div.posts-preenchimento{
     background-color: #f0f0f0;
 }
 
 div.container.posts-fotos{
     background-color: #f0f0f0;
+    padding: 0 25px;
 }
 
 div.container.posts-guias{
     background-color: #f0f0f0;
+    padding: 0 25px;
 }
 
 div.container.posts-questoes{
     background-color: #f0f0f0;
+    padding: 0 25px;
 }
 
 a.card-title{
@@ -156,27 +189,7 @@ p.card-text.post-qte-comentarios{
     font-size: 0.8rem;
 }
 
-.titulo-secao{
-    font-size: 1.6rem;
-}
-
-.titulo-secao-continuacao{
-    font-size: 1.1rem;
-}
-
-.subtitulo-secao{
-    font-size: 1.6rem;
-}
-
-a.subtitulo-link{
-    text-decoration: none;
-    color: gray;
-}
-
-a:hover.subtitulo-link{
-    text-decoration: none;
-    color: black;
-}
+/* FOOTER */
 
 footer{
     background-color: #e1f5fe;

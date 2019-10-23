@@ -21,10 +21,8 @@
                         </button>
                         <button type="button" class="btn btn-light container col-md-12 botao border border-dark">
                             <div class="row align-items-center">
-                            <img class="estilo-logo col-md-3"
-                                src="img/icons/Google__G__Logo.svg"
-                                alt="logo Google">
-                            <h4 class="col-md-auto estilo-texto1">ENTRAR COM GOOGLE</h4>
+                                <img class="estilo-logo col-md-3" src="img/icons/Google__G__Logo.svg" alt="logo Google">
+                                <h4 class="col-md-auto estilo-texto1">ENTRAR COM GOOGLE</h4>
                             </div>
                         </button>
                         <div>
@@ -53,7 +51,7 @@
 
                     </div>
                     <div class="modal-content">
-                        <h7 class="estilo-texto4">Ainda não é membro? <a href="cadastro.php">Clique aqui!</a> </h7>
+                        <h6 class="estilo-texto4">Ainda não é membro? <a href="cadastro.php">Clique aqui!</a> </h6>
                     </div>
                 </div>
             </div>

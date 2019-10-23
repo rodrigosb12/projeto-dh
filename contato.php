@@ -1,8 +1,8 @@
 <?php require_once('header.php'); ?>
 
-    <div class="container">
-        <div class="row">
-            <div class="col d-flex justify-content-center">
+<div class="container">
+    <div class="row">
+        <div class="col d-flex justify-content-center">
             <div>
                 <a>Seu contato é muito imortante para nós.<br>
                     Envie-nos um e-mail preenchendo os campos abaixo, e logo retornaremos.<br>

@@ -12,14 +12,14 @@
                         <li>
                             <a href="sobrenos.php" class="footer-link">Sobre o Wimart</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#" class="footer-link">Sobre o Wimart Studio</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="#" class="footer-link">Trabalhe conosco</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-link">Contato</a>
+                            <a href="contato.php" class="footer-link">Contato</a>
                         </li>
                     </ul>
                 </div>
