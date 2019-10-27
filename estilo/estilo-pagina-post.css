@@ -1,0 +1,21 @@
+/* ESTILO APLICÁVEL A TODAS AS PÁGINAS */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ESTILO APLICÁVEL A TODAS AS PÁGINAS */
+
+.container-top{
+    background-color: #f0f0f0;    
+}
+
+.container-main{
+    background-color: #f0f0f0;    
+}
