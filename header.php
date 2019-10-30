@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="estilo/estilo-sobrenos.css">
     <link rel="stylesheet" href="estilo/estilo-modal-login.css">
     <link rel="stylesheet" href="estilo/estilo-carrinho.css">
+    <link rel="stylesheet" href="estilo/estilo-comunidades.css">
+    <link rel="stylesheet" href="estilo/estilo-pagina-post.css">
+
         
 </head>
 
