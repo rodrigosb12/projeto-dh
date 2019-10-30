@@ -10,12 +10,29 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-/* ESTILO APLICÁVEL A TODAS AS PÁGINAS */
+/* MAIN */
 
-.container-top{
-    background-color: #f0f0f0;    
+p.post-texto-principal{
+    font-size: 1rem;
 }
 
-.container-main{
-    background-color: #f0f0f0;    
+div.conteudo-post{
+    background-color: #f0f0f0;
+}
+
+div.texto-principal{
+    background-color: white;
+}
+
+div.comentarios{
+    background-color: white;
+}
+
+a.link-user-comentarios{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover.link-user-comentarios{
+    color: orange;
 }
