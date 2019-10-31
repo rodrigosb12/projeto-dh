@@ -134,3 +134,19 @@ a:hover.link-icones-cartao-post{
 .titulo-aside{
     font-size: 1.5rem;    
 }
+
+
+/* MODAL */
+
+i.icone-posts{
+    font-size: 4rem;
+}
+
+a.link-icones-posts{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-icones-posts{
+    color:orange;
+}
