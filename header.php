@@ -47,9 +47,9 @@
                             Comunidades
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-uppercase" href="#">Audio</a>
-                            <a class="dropdown-item text-uppercase" href="#">Relógios</a>
-                            <a class="dropdown-item text-uppercase" href="#">Outdoors</a>
+                            <a class="dropdown-item text-uppercase" href="comunidades.php">Audio</a>
+                            <a class="dropdown-item text-uppercase" href="comunidades.php">Relógios</a>
+                            <a class="dropdown-item text-uppercase" href="comunidades.php">Outdoors</a>
                         </div>
                     </li>
                 </ul>

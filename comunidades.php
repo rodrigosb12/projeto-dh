@@ -61,13 +61,13 @@
                 </div>
                 <div class="row">
                     <div class="col cartao-post-conteudo">
-                        <a href="#" class="link-titulo-cartao-post">
+                        <a href="pagina-post.php" class="link-titulo-cartao-post">
                             <h4 class="titulo-cartao-post pt-3 px-3">Titulo do post</h4>
                         </a>
-                        <a href="#" class="link-conteudo-cartao-post">
+                        <a href="pagina-post.php" class="link-conteudo-cartao-post">
                             <p class="conteudo-cartao-post px-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, ad?</p>
                         </a>
-                        <a href="#"><img src="img/comunidades/relogios/relogio-post-1.jpg" alt="relogio-post" class="imagem-post"></a>
+                        <a href="pagina-post.php"><img src="img/comunidades/relogios/relogio-post-1.jpg" alt="relogio-post" class="imagem-post"></a>
                     </div>
                 </div>
                 <div class="row cartao-post-bottom">
@@ -101,10 +101,10 @@
                 </div>
                 <div class="row">
                     <div class="col cartao-post-conteudo">
-                        <a href="#" class="link-titulo-cartao-post">
+                        <a href="pagina-post.php" class="link-titulo-cartao-post">
                             <h4 class="titulo-cartao-post pt-3 px-3">Titulo do post</h4>
                         </a>
-                        <a href="#" class="link-conteudo-cartao-post">
+                        <a href="pagina-post.php" class="link-conteudo-cartao-post">
                             <p class="conteudo-cartao-post px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minima corrupti sint voluptas asperiores quae quisquam unde nemo laborum! Cupiditate atque facilis veritatis sit incidunt officia vitae, numquam similique eligendi, animi mollitia rem esse non consectetur architecto illo consequatur tempore velit quibusdam quo voluptatum officiis, odio neque? Voluptate, praesentium sed.</p>
                         </a>
                     </div>
@@ -140,13 +140,13 @@
                 </div>
                 <div class="row">
                     <div class="col cartao-post-conteudo">
-                        <a href="#" class="link-titulo-cartao-post">
+                        <a href="pagina-post.php" class="link-titulo-cartao-post">
                             <h4 class="titulo-cartao-post pt-3 px-3">Titulo do post</h4>
                         </a>
-                        <a href="#" class="link-conteudo-cartao-post">
+                        <a href="pagina-post.php" class="link-conteudo-cartao-post">
                             <p class="conteudo-cartao-post px-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, ad?</p>
                         </a>
-                        <a href="#"><img src="img/comunidades/relogios/relogio-post-1.jpg" alt="relogio-post" class="imagem-post"></a>
+                        <a href="pagina-post.php"><img src="img/comunidades/relogios/relogio-post-1.jpg" alt="relogio-post" class="imagem-post"></a>
                     </div>
                 </div>
                 <div class="row cartao-post-bottom">
@@ -197,15 +197,15 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col d-flex flex-column justify-content-center align-items-center">
-                        <a href="#" class="link-icones-posts"><i class="fas fa-camera-retro icone-posts p-2"></i></a>
+                        <a href="post-comunidade.php" class="link-icones-posts"><i class="fas fa-camera-retro icone-posts p-2"></i></a>
                         <h5 class="m-0 text-uppercase">Fotos</h5>
                     </div>
                     <div class="col d-flex flex-column justify-content-center align-items-center">
-                        <a href="#" class="link-icones-posts"><i class="fas fa-book-open icone-posts p-2"></i></a>
+                        <a href="post-comunidade.php" class="link-icones-posts"><i class="fas fa-book-open icone-posts p-2"></i></a>
                         <h5 class="m-0 text-uppercase">Guias</h5>
                     </div>
                     <div class="col d-flex flex-column justify-content-center align-items-center">
-                        <a href="#" class="link-icones-posts"><i class="far fa-question-circle icone-posts p-2"></i></a>
+                        <a href="post-comunidade.php" class="link-icones-posts"><i class="far fa-question-circle icone-posts p-2"></i></a>
                         <h5 class="m-0 text-uppercase">Dúvidas</h5>
                     </div>
                 </div>

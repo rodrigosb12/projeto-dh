@@ -41,12 +41,12 @@
                         </div>
 
                         <div class="col-12 mb-2 text-right">
-                            <button id="ctl00_Body_ibtnComprar" type="button"
+                            <a href="carrinho.php"><button id="ctl00_Body_ibtnComprar" type="button"
                                 class="btn btn-primary btn-block btn-lg bt-addproduct btn-comprar"
                                 title="Adicionar ao Carrrinho"
                                 onclick="BuyProduct('004582', 'Novo Kindle Paperwhite 8GB wi-fi 6&quot; preto Kindle', '499', 0);"
                                 style="cursor:pointer;">
-                                <i class="fa fa-shopping-cart mr-2"></i>Comprar</button>
+                                <i class="fa fa-shopping-cart mr-2"></i>Comprar</button></a>
                         </div>
 
                         <div class="row artigo-produto">
