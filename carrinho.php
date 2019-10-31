@@ -2,18 +2,33 @@
 
 <section class=" container">
     <div class="row justify-content-between">
-        <div class="row col-9 my-2 background-carrinho justify-content-between align-items-start pl-0 mr-1">
-            <img src="img/produtos/audio-7.jpg" alt="produto" class="col-1 teste px-0 img-carrinho">
-            <div class="row col-lg-11 my-2 justify-content-between teste">
-                <h1 class="col-lg-auto font-carrinho px-0">Nome do produto</h1>
-                <h2 class="col-auto font-carrinho">Preço</h2>
+        <div class="row col-9 my-2 align-self-start justify-content-between align-items-start pl-0 mr-1">
+            <div class="row col-12 px-0 background-carrinho">
+                <img src="img/produtos/audio-7.jpg" alt="produto" class=" px-0 col-lg-1">
+                <div class="row col-lg-11 my-2 justify-content-between">
+                    <h1 class="col-lg-auto font-carrinho pr-0">Nome do produto</h1>
+                    <h2 class="col-auto font-carrinho pr-0">Preço</h2>
+                </div>
             </div>
-            <!-- <div class="row align-items-start">
-            <h4 class="font-carrinho">Selecione a quantidade:</h4>
-            </div> -->
+            <div class="row col-12">
+                <br>
+            </div>
+            <div class="row col-12 px-0 background-carrinho pt-2">
+                <h4 class="col-auto pl-0 pt-1 font-carrinho">Selecione a quantidade:</h4>
+                <form action="">
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
         </div>
-        
-        <div class="row pr-0 my-2 col-lg-3 teste1">
+        <div class="row pr-0 my-2 col-lg-3 background-carrinho">
             <div class="row py-1 mt-2 col-12">
                 <h2 class="font-carrinho">Detalhes da Compra</h2>
             </div>
