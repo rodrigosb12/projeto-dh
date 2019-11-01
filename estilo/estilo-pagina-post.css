@@ -1,0 +1,38 @@
+/* ESTILO APLICÁVEL A TODAS AS PÁGINAS */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* MAIN */
+
+p.post-texto-principal{
+    font-size: 1rem;
+}
+
+div.conteudo-post{
+    background-color: #f0f0f0;
+}
+
+div.texto-principal{
+    background-color: white;
+}
+
+div.comentarios{
+    background-color: white;
+}
+
+a.link-user-comentarios{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover.link-user-comentarios{
+    color: orange;
+}

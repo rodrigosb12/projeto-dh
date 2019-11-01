@@ -47,12 +47,12 @@
                     <div class="row lista-de-produtos">
                         <div class="col d-flex justify-content-center">
                             <div class="card">
-                                <a href="#"><img src="img/watches/heritor-pro-diver-thumb.jpg" class="card-img-top"
+                                <a href="product.php"><img src="img/watches/heritor-pro-diver-thumb.jpg" class="card-img-top"
                                         alt="relogio-heritor"></a>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <a href="#" class="card-title">
+                                            <a href="product.php" class="card-title">
                                                 <h5 class="card-title">Heritor Edgard Pro Diver Automatic Watches</h5>
                                             </a>
                                         </div>
@@ -89,12 +89,12 @@
                         </div>
                         <div class="col d-flex justify-content-center">
                             <div class="card">
-                                <a href=""><img src="img/audio/thumb-focal-elex-headphones.jpg" class="card-img-top"
+                                <a href="product.php"><img src="img/audio/thumb-focal-elex-headphones.jpg" class="card-img-top"
                                         alt="focal-elex-headphones"></a>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <a href="#" class="card-title">
+                                            <a href="product.php" class="card-title">
                                                 <h5 class="card-title">Focal Elex Headphones</h5>
                                             </a>
                                         </div>
@@ -132,12 +132,12 @@
                         </div>
                         <div class="col d-flex justify-content-center">
                             <div class="card">
-                                <a href=""><img src="img/outdoors/thumb-granite-gear-crown-x60.jpg" class="card-img-top"
+                                <a href="product.php"><img src="img/outdoors/thumb-granite-gear-crown-x60.jpg" class="card-img-top"
                                         alt="granite-gear-crown-x60"></a>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <a href="#" class="card-title">
+                                            <a href="product.php" class="card-title">
                                                 <h5 class="card-title">Granite Gear Crown X60</h5>
                                             </a>
                                         </div>
@@ -173,12 +173,12 @@
                         </div>
                         <div class="col d-flex justify-content-center">
                             <div class="card">
-                                <a href=""><img src="img/watches/card-orient-makoII.jpg" class="card-img-top"
+                                <a href="product.php"><img src="img/watches/card-orient-makoII.jpg" class="card-img-top"
                                         alt="relogio-orient"></a>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <a href="#" class="card-title">
+                                            <a href="product.php" class="card-title">
                                                 <h5 class="card-title">Orient Mako II Automatic Watch</h5>
                                             </a>
                                         </div>

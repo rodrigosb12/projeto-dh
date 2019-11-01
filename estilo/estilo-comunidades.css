@@ -1,0 +1,152 @@
+/* ESTILO APLICÁVEL A TODAS AS PÁGINAS */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* TOPO */
+
+.titulo-topo-comunidades{
+    font-size: 2rem;;
+}
+
+.banner-comunidade{
+    width: 100%;
+}
+
+.col-8.div-banner-comunidade{
+    padding: 0;
+}
+
+.texto-topo{
+    font-size: 1rem;
+}
+
+.texto-destaque-topo{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.texto-complementar-topo{
+    font-size: 0.8rem;
+}
+
+
+/* MAIN */
+.container.principal{
+    background-color: #f0f0f0;
+}
+
+/*FILTRO - LATERAL ESQUERDA*/
+
+.titulo-categorias-posts{
+    font-size: 1.5rem;
+}
+
+.texto-filtro-categorias-posts{
+    font-size: 1.2rem;    
+}
+
+a.link-filtro-categorias{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-filtro-categorias{
+    color: orange;
+}
+
+/* CARTÃO DE POSTS */
+
+.cartao-post{
+    background-color: white;
+}
+
+.imagem-post{
+    width: 100%;    
+}
+
+a.link-usuario{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-usuario{
+    color: orange;
+}
+
+.user-cartao-post{
+    font-size: 0.7rem;
+}
+
+.data-cartao-post{
+    font-size: 0.7rem;
+}
+
+.titulo-cartao-post{
+    font-size: 1.4rem;
+}
+
+a.link-titulo-cartao-post{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-titulo-cartao-post{
+    color: orange;
+}
+
+.conteudo-cartao-post{
+    font-size: 1rem;
+}
+
+a.link-conteudo-cartao-post{
+    text-decoration: none;
+    color: black;
+}
+
+a.link-icone-like{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-icone-like{
+    color: orange;
+}
+
+a.link-icones-cartao-post{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-icones-cartao-post{
+    color:orange;
+}
+
+/* ASIDE */
+
+.titulo-aside{
+    font-size: 1.5rem;    
+}
+
+
+/* MODAL */
+
+i.icone-posts{
+    font-size: 4rem;
+}
+
+a.link-icones-posts{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-icones-posts{
+    color:orange;
+}

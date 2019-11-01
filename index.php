@@ -4,16 +4,13 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/watches/ana-azevedo-XcUJUO2AqVA-unsplash.jpg" class="d-block w-100 carrossel-imagem"
-                    alt="...">
+                <img src="img/watches/ana-azevedo-XcUJUO2AqVA-unsplash.jpg" class="d-block w-100 carrossel-imagem" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="img/watches/brigitte-tohm-j8C66j15nAk-unsplash.jpg" class="d-block w-100 carrossel-imagem"
-                    alt="...">
+                <img src="img/watches/brigitte-tohm-j8C66j15nAk-unsplash.jpg" class="d-block w-100 carrossel-imagem" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="img/watches/devon-janse-van-rensburg-K68F6Ec03CM-unsplash.jpg"
-                    class="d-block w-100 carrossel-imagem" alt="...">
+                <img src="img/watches/devon-janse-van-rensburg-K68F6Ec03CM-unsplash.jpg" class="d-block w-100 carrossel-imagem" alt="...">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -35,7 +32,7 @@
             </div>
             <div class="col mt-3 d-flex justify-content-end align-items-center">
                 <h2 class="titulo-secao-continuacao text-uppercase my-4">
-                    <a href="#" class="subtitulo-link">Veja todos</a>
+                    <a href="listaprod.php" class="subtitulo-link">Veja todos</a>
                 </h2>
             </div>
         </div>
@@ -44,12 +41,11 @@
         <div class="row lista-de-produtos">
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href=""><img src="img/audio/thumb-focal-elex-headphones.jpg" class="card-img-top"
-                            alt="focal-elex-headphones"></a>
+                    <a href="product.php"><img src="img/audio/thumb-focal-elex-headphones.jpg" class="card-img-top" alt="focal-elex-headphones"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Focal Elex Headphones</h5>
                                 </a>
                             </div>
@@ -71,8 +67,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">15</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -87,12 +82,11 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href=""><img src="img/audio/thumb-focal-elex-headphones.jpg" class="card-img-top"
-                            alt="focal-elex-headphones"></a>
+                    <a href="product.php"><img src="img/audio/thumb-focal-elex-headphones.jpg" class="card-img-top" alt="focal-elex-headphones"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Focal Elex Headphones</h5>
                                 </a>
                             </div>
@@ -114,8 +108,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">15</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -130,12 +123,11 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href=""><img src="img/outdoors/thumb-granite-gear-crown-x60.jpg" class="card-img-top"
-                            alt="granite-gear-crown-x60"></a>
+                    <a href="product.php"><img src="img/outdoors/thumb-granite-gear-crown-x60.jpg" class="card-img-top" alt="granite-gear-crown-x60"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Granite Gear Crown X60</h5>
                                 </a>
                             </div>
@@ -155,8 +147,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">12</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -171,12 +162,11 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href=""><img src="img/watches/card-orient-makoII.jpg" class="card-img-top"
-                            alt="relogio-orient"></a>
+                    <a href="product.php"><img src="img/watches/card-orient-makoII.jpg" class="card-img-top" alt="relogio-orient"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Orient Mako II Automatic Watch</h5>
                                 </a>
                             </div>
@@ -197,8 +187,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">87</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -222,7 +211,7 @@
             </div>
             <div class="col mt-3 d-flex justify-content-end align-items-center">
                 <h2 class="titulo-secao-continuacao text-uppercase my-4">
-                    <a href="#" class="subtitulo-link">Veja todos</a>
+                    <a href="listaprod.php" class="subtitulo-link">Veja todos</a>
                 </h2>
             </div>
         </div>
@@ -231,12 +220,11 @@
         <div class="row lista-de-produtos">
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href="#"><img src="img/watches/thumb-maurice-lacroix.jpg" class="card-img-top"
-                            alt="maurice-lacroix"></a>
+                    <a href="product.php"><img src="img/watches/thumb-maurice-lacroix.jpg" class="card-img-top" alt="maurice-lacroix"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Maurice Lacroix Mechanical Watch</h5>
                                 </a>
                             </div>
@@ -257,8 +245,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">43</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -273,12 +260,11 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href=""><img src="img/audio/thumb-grace-design-standard-DAC-balanced.jpg" class="card-img-top"
-                            alt="grace-design-DAC"></a>
+                    <a href="product.php"><img src="img/audio/thumb-grace-design-standard-DAC-balanced.jpg" class="card-img-top" alt="grace-design-DAC"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Grace Design Standard DAC</h5>
                                 </a>
                             </div>
@@ -300,8 +286,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">33</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -316,12 +301,11 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href=""><img src="img/watches/card-rado-women.jpg" class="card-img-top"
-                            alt="relogio-rado-women"></a>
+                    <a href="product.php"><img src="img/watches/card-rado-women.jpg" class="card-img-top" alt="relogio-rado-women"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Rado Women's D-Star Automatic Watch</h5>
                                 </a>
                             </div>
@@ -342,8 +326,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">72</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -358,12 +341,11 @@
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card">
-                    <a href=""><img src="img/outdoors/thumb-fizan-traveler-trekking-poles.jpg" class="card-img-top"
-                            alt="fizan-trekking-poles"></a>
+                    <a href="product.php"><img src="img/outdoors/thumb-fizan-traveler-trekking-poles.jpg" class="card-img-top" alt="fizan-trekking-poles"></a>
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                                <a href="#" class="card-title">
+                                <a href="product.php" class="card-title">
                                     <h5 class="card-title">Fizan Traveler Trekking Poles</h5>
                                 </a>
                             </div>
@@ -384,8 +366,7 @@
                     <div class="bottom-card">
                         <div class="row">
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
-                                <a href="" class="card-icone-comentarios"><i
-                                        class="far fa-comment-alt bottom-comment"></i></a>
+                                <a href="" class="card-icone-comentarios"><i class="far fa-comment-alt bottom-comment"></i></a>
                                 <p class="card-bottom">24</p>
                             </div>
                             <div class="col mb-2 d-flex justify-content-center align-items-center">
@@ -420,7 +401,7 @@
     <div class="row">
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -434,14 +415,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem?</p>
                             </a>
                         </div>
@@ -474,7 +455,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -488,14 +469,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -531,7 +512,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -545,14 +526,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -588,7 +569,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -602,14 +583,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -670,14 +651,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -713,7 +694,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -727,14 +708,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -770,7 +751,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -784,14 +765,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -827,7 +808,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -841,14 +822,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -889,13 +870,13 @@
 <div class="container pb-3 posts-questoes">
     <div class="row">
         <div class="col subtitulo-posts mt-4 mb-4">
-            <h2 class="titulo-secao">QUESTÕES</h2>
+            <h2 class="titulo-secao">DÚVIDAS</h2>
         </div>
     </div>
     <div class="row">
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -909,14 +890,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -952,7 +933,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -966,14 +947,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -1009,7 +990,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -1023,14 +1004,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
@@ -1066,7 +1047,7 @@
         </div>
         <div class="col d-flex justify-content-center">
             <div class="card">
-                <a href="#">
+                <a href="pagina-post.php">
                     <img src="img/watches/post-watch-1.jpg" class="card-img-top" alt="post-watch">
                 </a>
                 <div class="card-body">
@@ -1080,14 +1061,14 @@
                     </div>
                     <div class="row">
                         <div class="col my-2 d-flex align-items-center">
-                            <a href="#" class="post-titulo">
+                            <a href="pagina-post.php" class="post-titulo">
                                 <h5 class="post-titulo">O que vocês estão usando agora?</h5>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col d-flex align-items-center">
-                            <a href="#" class="post-text">
+                            <a href="pagina-post.php" class="post-text">
                                 <p class="card-text post-text">Lorem, ipsum dolor sit amet consectetur adipisicing
                                     elit.
                                     Ea iste sint ullam voluptas veritatis omnis non assumenda reprehenderit? Est sit
