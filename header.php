@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="estilo/estilo-product.css">
     <link rel="stylesheet" href="estilo/estilo-sobrenos.css">
     <link rel="stylesheet" href="estilo/estilo-modal-login.css">
-        
+    <link rel="stylesheet" href="estilo/estilo-profile.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 <header>
     <?php require_once('modal-login.php'); ?>
 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light border-bottom" style="background-color: white;">
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom" style="background-color: white;">
             <a class="navbar-brand" href="index.php">
                 <img src="img/logos/Wimart-logo-right-icon.png" alt="logotipo">
             </a>
@@ -63,8 +64,6 @@
             </div>
         </nav>
     </header>
-
-     
 
 
 

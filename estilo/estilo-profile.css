@@ -1,0 +1,63 @@
+
+/* header profile start */
+
+section.header-profile button.profile-photo-edit-bt{
+    margin: 0 auto;
+    background: black;
+    border: black;
+    border-radius: 0%;
+    text-transform: uppercase;
+    width: 100px;
+    justify-content: center;
+}
+
+div.upload{
+    text-align: right;
+}
+
+div button i{
+    margin-right: 5px;
+}
+
+div.user-img{
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+section.header-profile div.profile-img{
+    background-image: url(../img/liderancas/profile.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+}
+
+div.profile-metrics-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+section.header-profile div.profile-metrics{
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px 0px 10px 0px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+nav.profile-navbar{
+    justify-content: center;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* header profile-section end */
+
+
+/* About Section start */
+
+section.about button.profile-about-edit-bt{
+    text-align: right;
+}
