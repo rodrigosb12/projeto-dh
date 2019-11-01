@@ -54,8 +54,8 @@
 
     <!-- <div class="row background-carrinho">
     <div class="row col-9">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias similique, dolorum magnam deserunt officiis nisi iure! Vero culpa illum nihil natus quod sunt ducimus aut alias accusamus in? Quia, quisquam.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa facilis, voluptas, in labore quod ad atque numquam perspiciatis iure aut velit dolorum nemo dolorem eum molestiae ab, eligendi cum minus!</p>  
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias similique, dolorum magnam deserunt officiis nisi iure! Vero culpa illum nihil natus quod sunt ducimus aut alias accusamus in? Quia, quisquam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa facilis, voluptas, in labore quod ad atque numquam perspiciatis iure aut velit dolorum nemo dolorem eum molestiae ab, eligendi cum minus!</p>  
     </div>
     <div class="row col-3">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis blanditiis rerum optio in, odio reprehenderit aliquam sint quis nesciunt architecto quisquam accusamus fuga dolor nobis alias, quaerat aliquid reiciendis!</p>
