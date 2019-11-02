@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="estilo/estilo-profile.css">
     <link rel="stylesheet" href="estilo/estilo-comunidades.css">
     <link rel="stylesheet" href="estilo/estilo-carrinho.css">
-    <link rel="stylesheet" href="estilo/estilo-post.css">
-    <link rel="stylesheet" href="estilo/estilo-login.css">
+    <link rel="stylesheet" href="estilo/estilo-post-comunidade.css">
+    <link rel="stylesheet" href="estilo/estilo-pagina-post.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 

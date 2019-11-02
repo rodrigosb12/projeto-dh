@@ -17,6 +17,11 @@
     font-weight: lighter;
 }
 
+.font-cartao{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
 .background-carrinho{
     background-color: #f0f0f0;
 }
@@ -32,5 +37,3 @@
 .background-row{
     background-color: white;
 }
-
-.
