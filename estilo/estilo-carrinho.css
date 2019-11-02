@@ -1,14 +1,20 @@
-<<<<<<< HEAD
 
-/* body{
-    background-color: lightgray;
+/* Fonte produto */
+.font-produto{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
 
-} */
-=======
->>>>>>> 6fa54a824983ecfb76eaf570f55385e9d3574a1b
-.font-carrinho{
-    font-size: 20px;
-    
+/* Fonte preço */
+.font-preco{
+    font-size: 1.10rem;
+    font-weight: normal;
+}
+
+/* Fonte menu */
+.font-menu{
+    font-size: 1.25rem;
+    font-weight: lighter;
 }
 
 .background-carrinho{
@@ -16,13 +22,15 @@
 }
 
 .img-carrinho{
-
+    
 }
 
 .teste{
     background-color: blue;
 }
 
-.teste1{
+.background-row{
     background-color: white;
 }
+
+.
