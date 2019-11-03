@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9cae312f00.js" crossorigin="anonymous"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilo/estilo-index.css">
     <link rel="stylesheet" href="estilo/estilo-cadastro.css">
     <link rel="stylesheet" href="estilo/estilo-listaprod.css">
@@ -16,8 +18,7 @@
     <link rel="stylesheet" href="estilo/estilo-comunidades.css">
     <link rel="stylesheet" href="estilo/estilo-carrinho.css">
     <link rel="stylesheet" href="estilo/estilo-post-comunidade.css">
-    <link rel="stylesheet" href="estilo/estilo-pagina-post.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/estilo-pagina-post.css">    
 </head>
 
 <body>
@@ -46,9 +47,9 @@
                             Comunidades
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-uppercase" href="#">Audio</a>
-                            <a class="dropdown-item text-uppercase" href="#">Relógios</a>
-                            <a class="dropdown-item text-uppercase" href="#">Outdoors</a>
+                            <a class="dropdown-item text-uppercase" href="comunidades.php">Audio</a>
+                            <a class="dropdown-item text-uppercase" href="comunidades.php">Relógios</a>
+                            <a class="dropdown-item text-uppercase" href="comunidades.php">Outdoors</a>
                         </div>
                     </li>
                 </ul>
