@@ -76,15 +76,35 @@
         <div class="col-6">
             <h4>About</h4>
         </div>
-        <div class="col-6">
+        <div class="col-6 d-flex edit-btn">
             <button class="profile-about-edit-bt btn">
                 <p class="profile-about d-inline">Edit</p>
                 <i class="fas fa-pencil-alt"></i>
             </button>
         </div>
     </div>
+    <div class="row description">
+    <p class="col">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minus molestiae, laboriosam maxime eveniet eaque quia deleniti hic provident nisi! Molestiae nisi iusto totam quae perspiciatis cupiditate ipsum deleniti. Deserunt!
+    </p>
+    </div>
 
+    <div class="row communities">
+        <div class="col-1">
+            <h4>Minhas Comunidades</h4>
+        </div>
+    <div class="col-12 communities-icons d-flex">
+        <div class="col c-icons">
+        </div>
+        <div class="col c-icons">
+        </div>
+        <div class="col c-icons">
+        </div>
+    </div>
+    </div>
 
+    
+    
 </section>
 
 
