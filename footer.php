@@ -34,7 +34,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col redes-sociais">
+            <div class="col-md-4 redes-sociais">
                 <h3 class="footer-subtitulo">Siga o Wimart</h3>
                 <a href="#" class="icone-rede-social"><i class="fab fa-facebook-square"></i></a>
                 <a href="#" class="icone-rede-social"><i class="fab fa-instagram"></i></a>
