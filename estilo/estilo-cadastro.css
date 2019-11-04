@@ -4,11 +4,14 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Oswald', sans-serif;
-    /* background-color: #f0f0f0; */
+.background-row{
+    background-color: white;
 }
-.stilo{
-    width: 33.33%;
-    margin-top: 9%;
+
+.background-cadastro{
+    background-color: #f0f0f0;
+}
+
+.font-cadastro{
+    font-weight: lighter;
 }
