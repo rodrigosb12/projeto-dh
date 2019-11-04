@@ -70,6 +70,7 @@ body {
 }
 
 .sel-img {
+    align-content: center;
     padding-right: 2px;
     padding-left: 2px;
     padding-top: 2px;
@@ -154,4 +155,8 @@ a.subtitulo-link {
 a:hover.subtitulo-link {
     text-decoration: none;
     color: black;
+}
+
+.carousel-indicators{
+position: relative;
 }

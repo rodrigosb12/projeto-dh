@@ -1,70 +1,58 @@
 <?php require_once('header.php'); ?>
 
-    <section class="row secao-produto">
-        <div class="produto-imagem">
-
-            <div class="row princ-img">
-                <div class="div-princ-img">
-                    <a href="#"><img class="container img-princ" src="img/produtos/audio-10.jpg" /></a>
- 
+<div class="container d-block">
+    <div class="row">
+        <div class="col-6">
+            <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/produtos/audio-1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/produtos/audio-2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/produtos/audio-3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/produtos/audio-4.jpg" alt="Third slide">
+                    </div>
                 </div>
+                <div class="container mult-img">
+                    <div class="container img-mt">
+                        <a data-target="#carousel-thumb" data-slide-to="0" href="#"><img class="container sel-img"
+                                src="img/produtos/audio-1.jpg" /></a>
+                    </div>
+                    <div class="container img-mt">
+                        <a data-target="#carousel-thumb" data-slide-to="1" href="#"><img class="container sel-img"
+                                src="img/produtos/audio-2.jpg" /></a>
+                    </div>
+                    <div class="container img-mt">
+                        <a data-target="#carousel-thumb" data-slide-to="2" href="#"><img class="container sel-img"
+                                src="img/produtos/audio-3.jpg" /></a>
+                    </div>
 
-            </div>
-
-            <div class="container mult-img">
-                <div class="container img-mt">
-                    <a href="#"><img class="container sel-img" src="img/produtos/audio-10.jpg" /></a>
-                </div>
-                <div class="container img-mt">
-                    <a href="#"><img class="container sel-img" src="img/produtos/audio-10.jpg" /></a>
-                </div>
-                <div class="container img-mt">
-                    <a href="#"><img class="container sel-img" src="img/produtos/audio-10.jpg" /></a>
-                </div>
-
-                <div class="container img-mt">
-                    <a href="#"><img class="container sel-img" src="img/produtos/audio-10.jpg" /></a>
+                    <div class="container img-mt">
+                        <a data-target="#carousel-thumb" data-slide-to="3" href="#"><img class="container sel-img"
+                                src="img/produtos/audio-4.jpg" /></a>
+                    </div>
                 </div>
             </div>
 
         </div>
+    </div>
 
-        <div class="col prev-produto">
-            <div class="col">
-                <div class="col">
-                    <div class="row">
-                        <h1 class="titulo-produto text-uppercase my-4">PDROP + THX AAA™ 789 LINEAR AMPLIFIER</h1>
-                    </div>
-                    <div class="row">
-                        <div class=" row preco-produto">
-                            <b>$400</b>
-                        </div>
 
-                        <div class="col-12 mb-2 text-right">
-                            <a href="carrinho.php"><button id="ctl00_Body_ibtnComprar" type="button"
-                                class="btn btn-primary btn-block btn-lg bt-addproduct btn-comprar"
-                                title="Adicionar ao Carrrinho"
-                                onclick="BuyProduct('004582', 'Novo Kindle Paperwhite 8GB wi-fi 6&quot; preto Kindle', '499', 0);"
-                                style="cursor:pointer;">
-                                <i class="fa fa-shopping-cart mr-2"></i>Comprar</button></a>
-                        </div>
 
-                        <div class="row artigo-produto">
-                            <article>
-                                <p>Announced at CES 2018, the Drop + THX Achromatic Audio Amplifier (THX AAA™) 789 is a
-                                    linear
-                                    bipolar amplifier with feed-forward error correction. It’s designed for objectivists
-                                    who
-                                    appreciate an incredibly clean, transparent amp—the sought-after “wire with gain”
-                                    whose
-                                    amplification is wholly uncolored by a sound of its own</p>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+
+
+
+
+
+
+
 
     <section class="container menu-produc">
         <nav class=" navbar-expand-lg navbar-light bg-light justify-content-center">
@@ -140,7 +128,7 @@
                                     Laurie Fincham, the chief scientist behind THX AAA, check out this interview on Home
                                     Theater Geeks.</cite><br>
 
-                
+
                                 <br><b>ADDITIONAL FEATURES</b>
                                 <br>
 
@@ -447,4 +435,4 @@
         <hr>
     </section>
 
-<?php require_once('footer.php'); ?>
+    <?php require_once('footer.php'); ?>
