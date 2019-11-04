@@ -46,6 +46,7 @@
                     <div class="row py-1 mt-2 col-auto">
                         <h2 class="font-produto">Detalhes da Compra</h2>
                     </div>
+                    <hr class="col-10 mt-1">
                     <div class="row col-12 pr-0 justify-content-between">
                         <h3 class="col-auto px-0 font-menu">Quantidade</h3>
                         <h3 class="col-auto font-menu">1</h3>
@@ -62,20 +63,21 @@
                         <h3 class="col-auto px-0 font-menu">Total</h3>
                         <h3 class="col-auto font-menu">R$ 123,98 </h3>
                     </div>
+                    <hr class="col-10 mt-2">
                     <div class="row col-12 justify-content-end ">
                         <button class="btn btn-primary col-auto">Finalizar Compra</button>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
     <section class="container-fluid">
         <div class="row pl-5 col-lg-8 col-md-12 col-sm-12 pr-4 justify-content-between">
             <div class="row pt-2 pr-0 col-lg-6 background-row align-items-center border rounded">
-                <h2 class="col-12 font-carrinho font-preco">Opções de Pagamento</h2>
+                <h2 class="col-12 mb-0 pt-1 font-carrinho font-preco">Opções de Pagamento</h2>
+                <hr class="col-10 pt-0 pb-0 mb-1">
                 <div class="row align-items-center pl-3">
-                    <div class="form-check col-lg-12 pt-1">
+                    <div class="form-check col-lg-12">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
                             value="opcao1" checked>
                         <label class="form-check-label" for="exampleRadios1">
@@ -145,6 +147,7 @@
                         </div>
                     </div>
                 </form>
+                <hr class="col-10">
                 <div class="row align-items-center pl-3 pb-2">
                     <div class="form-check col-lg-12">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
@@ -157,7 +160,8 @@
                 </div>
             </div>
             <div class="row pt-3 pr-0 col-lg-6 background-row align-items-center border rounded">
-                <h2 class="col-12 font-carrinho font-preco">Opções de Entrega</h2>
+                <h2 class="col-12 mb-1 font-carrinho font-preco">Opções de Entrega</h2>
+                <hr class="col-10 mb-1">
                 <div class="row align-items-center pl-3">
                     <div class="form-check col-lg-12 pt-2">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
