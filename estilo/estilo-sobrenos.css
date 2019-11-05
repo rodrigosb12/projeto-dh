@@ -27,11 +27,6 @@ section.banner img{
 
 /* navegação página */
 
-section.navegacao{
-    max-width: 70vw;
-    border: solid 1px #7aa9f5;
-    margin: auto;
-}
 
 section.navegacao a{
     color: black;
@@ -45,10 +40,9 @@ div.conteudo .container a{
 /* Empresa */
 
 section#empresa{
-    max-width: 90vw;
-    margin: auto;
-    padding: 100px;
-    justify-content: center;
+    max-width: 80%;
+    margin-top: 80px;
+    margin-bottom: 80px
 }
 
 /* Lideranças */
@@ -56,7 +50,6 @@ section#empresa{
 section.lideranca h2{
     padding: 30px;
 }
-
 
 section.lideranca .card img{
     height: 200px;
@@ -66,18 +59,16 @@ section.lideranca .card img{
 /* Cultura */
 
 section#cultura{
-    max-width: 70vw;
-    margin: auto;
-    padding: 100px;
-    justify-content: center;
+    max-width: 80%;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 
 /* contato */
 
 section#contato{
-    max-width: 70vw;
+    width: 80%;
     margin: auto;
-    padding: 100px;
     justify-content: center;
 }

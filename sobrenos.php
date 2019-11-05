@@ -12,32 +12,39 @@
 
     <!-- nav bar interno da página -->
     <section class="navegacao">
-        <nav class="nav-interno">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="#empresa">A Empresa</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#lideranca">Liderança</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cultura">Cultura</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light profile-navbar row">
+            <div class="navbar col justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-5 col-md-">
+                        <a class="nav-link" href="#empresa">A Empresa<span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#lideranca">Liderança</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#cultura">Cultura</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </section>
 
+    
+
+
     <!-- Sobre a Empresa -->
-    <section id="empresa" class="container-empresa">
-        <h2 class="text-center">A Empresa</h2>
-        <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quidem quos ex
-            molestias sunt perferendis consectetur nihil. Amet obcaecati, cupiditate dignissimos id consequuntur
-            incidunt facilis, iusto expedita esse, blanditiis maiores? Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Sint, aut. Tempora excepturi, similique nemo, adipisci tempore assumenda unde obcaecati
-            nisi dolores id possimus eum repellat veritatis consequatur autem maiores error?</p>
+    <section id="empresa" class="row mx-auto container-empresa">
+        <div class="col">
+            <h2 class="text-center">A Empresa</h2>
+            <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quidem quos ex
+                molestias sunt perferendis consectetur nihil. Amet obcaecati, cupiditate dignissimos id consequuntur
+                incidunt facilis, iusto expedita esse, blanditiis maiores? Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Sint, aut. Tempora excepturi, similique nemo, adipisci tempore assumenda unde obcaecati
+                nisi dolores id possimus eum repellat veritatis consequatur autem maiores error?</p>
+        </div>
     </section>
 
     <!-- liderança -->
@@ -46,9 +53,9 @@
             <h2 class="text-center">Nosso Time</h2>
         </div>
         <div class="container">
-            <div class="row lista-de-produtos">
-                <div class="col">
-                    <div class="card">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-md-4">
+                    <div class="card my-3">
                         <img src="img/liderancas/ceo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CEO</h5>
@@ -57,8 +64,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
+                <div class="col-lg-4 col-sm-12 col-md-4">
+                    <div class="card my-3">
                         <img src="img/liderancas/cfo.jpg" card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CFO</h5>
@@ -67,8 +74,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
+                <div class="col-lg-4 col-sm-12 col-md-4">
+                    <div class="card my-3">
                         <img src="img/liderancas/ctp.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CTO</h5>
@@ -82,19 +89,22 @@
     </section>
 
     <!-- Cultura -->
-    <section id="cultura" class="container-empresa">
+    <section id="cultura" class="row container-empresa mx-auto">
+        <div class="col">
         <h2 class="text-center">Nossa Cultura</h2>
         <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis quidem quos ex
             molestias sunt perferendis consectetur nihil. Amet obcaecati, cupiditate dignissimos id consequuntur
             incidunt facilis, iusto expedita esse, blanditiis maiores? Lorem ipsum dolor sit amet consectetur,
             adipisicing elit. Sint, aut. Tempora excepturi, similique nemo, adipisci tempore assumenda unde obcaecati
             nisi dolores id possimus eum repellat veritatis consequatur autem maiores error?</p>
+            </div>
     </section>
 
     <!-- Contato -->
 
     <section id="contato">
         <form>
+            <h2 class="my-3">Contato</h2>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">

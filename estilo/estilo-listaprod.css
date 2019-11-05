@@ -12,9 +12,17 @@ body{
 /* cabecalho */
 
 section.cabecalho{
-    justify-content: space-around;
-    height: 15vh;
-    margin-top:8%;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+button.btn-filtro{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+}
+
+button.dr-btn{
+    justify-content: flex-end;
 }
 
 /* produtos */
@@ -171,4 +179,3 @@ a:hover.subtitulo-link{
     text-decoration: none;
     color: black;
 }
-

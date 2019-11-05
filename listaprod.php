@@ -1,46 +1,93 @@
 <?php require_once('header.php'); ?>
 
     <section class="cabecalho">
-        <div class="container filtros d-inline-block">
-        <div class="titulo">
-                <h2 class="titulo">Loja - Produtos</h2>
-        </div>
-        
-        <div>
-            <button type="button" class="btn btn-outline-dark">Esconder filtros</button>
-        </div>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Ordenar por:
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Recomendado</a>
-                <a class="dropdown-item" href="#">Mais Novos</a>
-                <a class="dropdown-item" href="#">Melhores Avaliados</a>
+        <div class="container filtros row">
+                <div class="titulo col-lg-12 col-md-12 col-sm-12">
+                        <h2 class="titulo my-5 ml-3">Loja - Produtos</h2>
+                </div>
+        </div>  
+                <div class="container row filtros">
+                    <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center">
+                        <button type="button" class="btn btn-filtro" data-toggle="modal" data-target="#modalFiltro">
+                            Filtros
+                        </button>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 justify-content-center">
+                        <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle dr-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Ordenar Por:
+                                </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Mais Pedidos</a>
+                                <a class="dropdown-item" href="#">Recentes</a>
+                                <a class="dropdown-item" href="#">Preço</a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            <div class="modal fade" id="modalFiltro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Filtros</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Checkbox padrão
+                                </label>
+                            </div>
+                            <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Checkbox padrão
+                            </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Checkbox padrão
+                            </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Checkbox padrão
+                            </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Checkbox padrão
+                            </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Checkbox padrão
+                            </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Checkbox padrão
+                            </label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                                Checkbox padrão
+                            </label>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </section>
-
-
-    <section class="filters">
-        <aside>
-            <div>
-                <h3>Destaques</h3>
-                <div><a href="">
-                    <span>Audio</span>
-                </a>
-                </div>
-                <div><a href="">
-                    <span>Outdoors</span>
-                </a>
-                </div>
-                <div><a href="">
-                    <span>Relógios</span>
-                </a>
-                </div>
-            </div>
-        </aside>
     </section>
     <section class="produtos">
             <div class="container">
