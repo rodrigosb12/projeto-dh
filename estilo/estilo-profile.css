@@ -11,6 +11,11 @@ section.header-profile button.profile-photo-edit-bt{
     justify-content: center;
 }
 
+/* div.bg-profile{
+    background: url(../img/background/greg-rakozy-0LU4vO5iFpM-unsplash.jpg);
+    background-size: cover;
+} */
+
 div.upload{
     text-align: right;
 }
@@ -50,8 +55,7 @@ section.header-profile div.profile-metrics{
 nav.profile-navbar{
     justify-content: center;
     text-transform: uppercase;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 /* header profile-section end */
 
@@ -63,11 +67,16 @@ section.about button.profile-about-edit-bt{
 }
 
 section.about{
+    padding-top: 20px;
     background:#f8f9fa;
 }
 
 section.about div.edit-btn{
     justify-content: flex-end;
+}
+
+section.about button.profile-about-edit-bt:hover{
+    box-shadow: 0px 2px 12px 0px rgba(0,0,0,.2);
 }
 
 div.about h4{
@@ -83,12 +92,13 @@ section.about p.col{
     font-weight: lighter;
     margin-top: 25px;
     padding-bottom: 25px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 div.communities{
     text-transform: uppercase;
     height: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 div.c-icons{
     height: 80px;

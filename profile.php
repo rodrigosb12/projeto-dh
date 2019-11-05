@@ -4,26 +4,27 @@
 <body>
 
 <section class="container header-profile">
-    <div class="cover row">
-        <div class="col upload-btn my-3">
-            <div class="upload">
-                <p class="profile-bg-edit d-inline">+ Upload Cover Photo</p>
-                <i class="far fa-image fa-lg"></i>
+    <div class="bg-profile">
+        <div class="cover row">
+            <div class="col upload-btn my-3">
+                <div class="upload">
+                    <p class="profile-bg-edit d-inline">+ Upload Cover Photo</p>
+                    <i class="far fa-image fa-lg"></i>
+                </div>
+            </div>
+        </div>
+        <div class="edit-btn row">
+            <button class="profile-photo-edit-bt btn btn-primary">
+                <p class="profile-photo-upload-text d-inline">Edit</p>
+                <i class="fas fa-camera"></i>
+            </button>
+        </div>
+        
+        <div class="row user-img img-fluid">
+            <div class="col profile-img my-4">
             </div>
         </div>
     </div>
-    <div class="edit-btn row">
-        <button class="profile-photo-edit-bt btn btn-primary">
-            <p class="profile-photo-upload-text d-inline">Edit</p>
-            <i class="fas fa-camera"></i>
-        </button>
-    </div>
-    
-    <div class="row user-img img-fluid">
-        <div class="col profile-img my-4">
-        </div>
-    </div>
-
     <div class="row user-name">
         <div class="col">
             <h2 class="user-name d-flex justify-content-center">
@@ -54,7 +55,7 @@
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light profile-navbar ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light profile-navbar row">
         <div class="navbar">
             <ul class="navbar-nav">
                 <li class="nav-item px-5">
@@ -103,8 +104,28 @@
     </div>
     </div>
 
-    
-    
+    <div class="row about mt-3">
+        <div class="col-6">
+            <h4>Seguidores : 0</h4>
+        </div>
+    </div>
+    <div class="row description">
+    <p class="col">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minus molestiae, laboriosam maxime eveniet eaque quia deleniti hic provident nisi! Molestiae nisi iusto totam quae perspiciatis cupiditate ipsum deleniti. Deserunt!
+    </p>
+    </div>    
+
+    <div class="row about">
+        <div class="col-6">
+            <h4>Seguindo: 0</h4>
+        </div>
+    </div>
+    <div class="row description">
+    <p class="col">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minus molestiae, laboriosam maxime eveniet eaque quia deleniti hic provident nisi! Molestiae nisi iusto totam quae perspiciatis cupiditate ipsum deleniti. Deserunt!
+    </p>
+    </div>    
+
 </section>
 
 
