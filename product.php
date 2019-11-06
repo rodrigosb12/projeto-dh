@@ -1,8 +1,8 @@
 <?php require_once('header.php'); ?>
 
-<div class="container d-block">
+<div class="containe-fluid d-block">
     <div class="row">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6">
             <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
@@ -40,6 +40,37 @@
             </div>
 
         </div>
+        <div class="col-sm-12 col-md-6">
+                    <div class="row">
+                        <h1 class="titulo-produto text-uppercase my-4">PDROP + THX AAA™ 789 LINEAR AMPLIFIER</h1>
+                    </div>
+                    <div class="row">
+                        <div class=" row preco-produto">
+                            <b>$400</b>
+                        </div>
+
+                        <div class="col-12 mb-2 text-right">
+                            <a href="carrinho.php"><button id="ctl00_Body_ibtnComprar" type="button"
+                                class="btn btn-primary btn-block btn-lg bt-addproduct btn-comprar"
+                                title="Adicionar ao Carrrinho"
+                                onclick="BuyProduct('004582', 'Novo Kindle Paperwhite 8GB wi-fi 6&quot; preto Kindle', '499', 0);"
+                                style="cursor:pointer;">
+                                <i class="fa fa-shopping-cart mr-2"></i>Comprar</button></a>
+                        </div>
+
+                        <div class="row artigo-produto">
+                            <article>
+                                <p>Announced at CES 2018, the Drop + THX Achromatic Audio Amplifier (THX AAA™) 789 is a
+                                    linear
+                                    bipolar amplifier with feed-forward error correction. It’s designed for objectivists
+                                    who
+                                    appreciate an incredibly clean, transparent amp—the sought-after “wire with gain”
+                                    whose
+                                    amplification is wholly uncolored by a sound of its own</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
     </div>
 
 
