@@ -19,7 +19,7 @@
                         <a href="#" class="footer-link">Trabalhe conosco</a>
                     </li>
                     <li>
-                        <a href="contato.php" class="footer-link">Contato</a>
+                        <a href="sobrenos.php#contato" class="footer-link">Contato</a>
                     </li>
                 </ul>
             </div>
