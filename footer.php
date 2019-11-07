@@ -30,7 +30,7 @@
                         <a href="#" class="footer-link">Regras gerais</a>
                     </li>
                     <li>
-                        <a href="#faq.php" class="footer-link">FAQ</a>
+                        <a href="faq.php" class="footer-link">FAQ</a>
                     </li>
                 </ul>
             </div>
