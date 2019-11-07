@@ -56,8 +56,7 @@
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light profile-navbar row">
-        <div class="navbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav col-12 justify-content-around">
                 <li class="nav-item px-5">
                     <a class="nav-link active" href="#">About <span class="sr-only">(Página atual)</span></a>
                 </li>
@@ -68,7 +67,6 @@
                     <a class="nav-link" href="#">Discussions</a>
                 </li>
             </ul>
-        </div>
     </nav>
 </section>
 
@@ -110,7 +108,7 @@
         </div>
     </div>
     <div class="row description">
-    <p class="col">
+    <p class="col followers">
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minus molestiae, laboriosam maxime eveniet eaque quia deleniti hic provident nisi! Molestiae nisi iusto totam quae perspiciatis cupiditate ipsum deleniti. Deserunt!
     </p>
     </div>    
@@ -121,7 +119,7 @@
         </div>
     </div>
     <div class="row description">
-    <p class="col">
+    <p class="col following">
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur minus molestiae, laboriosam maxime eveniet eaque quia deleniti hic provident nisi! Molestiae nisi iusto totam quae perspiciatis cupiditate ipsum deleniti. Deserunt!
     </p>
     </div>    

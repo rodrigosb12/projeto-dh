@@ -1,0 +1,14 @@
+
+div.faq-title{
+    text-align: center;
+}
+
+div.accordion{
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.accordion h5 button{
+    color: black;
+    text-transform: uppercase;
+}

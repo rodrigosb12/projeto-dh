@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="estilo/estilo-comunidades.css">
     <link rel="stylesheet" href="estilo/estilo-carrinho.css">
     <link rel="stylesheet" href="estilo/estilo-post-comunidade.css">
-    <link rel="stylesheet" href="estilo/estilo-pagina-post.css">    
+    <link rel="stylesheet" href="estilo/estilo-pagina-post.css">
+    <link rel="stylesheet" href="estilo/estilo-faq.css">    
 </head>
 
 <body>
