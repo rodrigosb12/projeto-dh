@@ -51,7 +51,7 @@ body {
 }
 
 .mult-img {
-    
+
     width: auto;
     padding-left: 0px;
     padding-right: 0px;
@@ -81,16 +81,12 @@ body {
 
 .preco-produto {
     font-size: 1.4rem;
-    display: flex;
-    padding: 0px;
-    margin: 0px;
 
 }
 
 .artigo-produto {
     display: block;
-    margin: 0px;
-    padding: 0px;
+
 }
 
 .titulo-secao {
@@ -101,26 +97,27 @@ body {
     font-size: 1.6rem;
 }
 
-.menu-produc{
+.menu-produc {
     display: inline;
     margin-left: 0px;
     margin-right: 0px;
     align-items: center;
 }
 
-.menu-central{
+.menu-central {
     justify-content: center;
 }
 
-.lk-menu-produc{
+.lk-menu-produc {
     margin-left: 100px;
     margin-right: 100px;
 }
 
-#ctl00_Body_ibtnComprar{
-    margin-bottom: 30px;
-    margin-top: 30px;
-    width: 25%;
+#btn_comprar {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .button-img {
@@ -157,6 +154,6 @@ a:hover.subtitulo-link {
     color: black;
 }
 
-.carousel-indicators{
-position: relative;
+.carousel-indicators {
+    position: relative;
 }
