@@ -59,8 +59,7 @@ a:hover.subtitulo-link{
 /* CARDS DE PRODUTOS */
 
 .card-img-top{
-    height: 35vh;
-    object-fit: cover;
+object-fit: cover;
 }
 
 i.bottom-comment{
