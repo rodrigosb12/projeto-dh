@@ -42,7 +42,7 @@
         </div>
         <div class="col-sm-12 col-md-6">
             <div class="row">
-                <h1 class="titulo-produto text-uppercase my-4">PDROP + THX AAA™ 789 LINEAR AMPLIFIER</h1>
+                <h1 class=" container titulo-produto text-uppercase my-4">PDROP + THX AAA™ 789 LINEAR AMPLIFIER</h1>
             </div>
             <div class="row">
                 <div class="container preco-produto">
@@ -74,23 +74,8 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <section class="container menu-produc">
-        <nav class=" navbar-expand-lg navbar-light bg-light justify-content-center">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class=".d-sm-none navbar-expand-lg navbar-light bg-light justify-content-center">
+         
             <div class="collapse navbar-collapse menu-central" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link lk-menu-produc" href="#">Overview</a>
@@ -101,7 +86,7 @@
             </div>
         </nav>
 
-    </section>
+  
 
     <section class="container desc">
         <div class="card col-12 px-0 border-0" id="descricaoProduto">

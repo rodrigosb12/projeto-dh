@@ -97,12 +97,7 @@ body {
     font-size: 1.6rem;
 }
 
-.menu-produc {
-    display: inline;
-    margin-left: 0px;
-    margin-right: 0px;
-    align-items: center;
-}
+
 
 .menu-central {
     justify-content: center;
