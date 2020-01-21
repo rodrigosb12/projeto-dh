@@ -2,9 +2,8 @@
 
 <body class="background-carrinho">
     <section class="container-fluid px-0">
-        <div class="row col-lg-12 col-sm-12 justify-content-between px-1 mx-0">
-            <div
-                class="mx-0 px-0 pl-lg-3 row col-lg-8 col-md-12 col-12 my-3 align-self-start justify-content-center align-items-start">
+        <div class="row pl-lg-1 col-lg-12 col-sm-12 justify-content-between px-1 mx-0">
+            <div class="row px-0 mx-0 col-lg-8 col-md-12 my-3 align-self-start justify-content-center align-items-start">
                 <div class="row col-12 background-row px-0 border rounded">
                     <img src="img/produtos/audio-7.jpg" alt="produto" class="px-0 col-lg-1 col-md-12 col-12">
                     <div class="row col-11 my-2 justify-content-between align-items-center">
@@ -41,26 +40,26 @@
                     </form>
                 </div>
             </div>
-            <div class="row col-lg-4 col-md-12 pl-lg-4 px-0 mx-0 mx-lg-0">
+            <div class="row col-lg-4 col-md-12 pl-lg-1 px-0 mx-0 mx-lg-0">
                 <div class="row pb-2 my-3 px-0 mx-0 col-12 background-row border rounded">
                     <div class="row py-1 mt-2 col-auto">
-                        <h2 class="font-produto px-1">Detalhes da Compra</h2>
+                        <h2 class="col-auto font-produto pr-0">Detalhes da Compra</h2>
                     </div>
                     <hr class="col-10 mt-1">
                     <div class="row col-12 pr-0 justify-content-between">
-                        <h3 class="col-auto px-1 font-menu">Quantidade</h3>
+                        <h3 class="col-auto pr-0 font-menu">Quantidade</h3>
                         <h3 class="col-auto px-0 font-menu">1</h3>
                     </div>
                     <div class="row col-12 pr-0 justify-content-between">
-                        <h3 class="col-auto px-1 font-menu">Subtotal</h3>
+                        <h3 class="col-auto pr-0 font-menu">Subtotal</h3>
                         <h3 class="col-auto px-0 font-menu">R$ 99,99</h3>
                     </div>
                     <div class="row col-12 pr-0 justify-content-between">
-                        <h3 class="col-auto px-1 font-menu">Frete</h3>
+                        <h3 class="col-auto pr-0 font-menu">Frete</h3>
                         <h3 class="col-auto px-0 font-menu">R$ 23,99</h3>
                     </div>
                     <div class="row col-12 pr-0 justify-content-between">
-                        <h3 class="col-auto px-1 font-menu">Total</h3>
+                        <h3 class="col-auto pr-0 font-menu">Total</h3>
                         <h3 class="col-auto px-0 font-menu">R$ 123,98 </h3>
                     </div>
                     <hr class="col-10 mt-2">
@@ -70,8 +69,8 @@
         </div>
     </section>
     <section class="container-fluid px-0">
-        <div class="row pl-5 col-lg-8 col-md-12 col-sm-12 pr-0 justify-content-between">
-            <div class="row pt-2 pr-0 col-lg-6 background-row align-items-center border rounded">
+        <div class="row pl-lg-1 col-lg-12 col-sm-12 justify-content-between px-1 mx-0">
+            <div class="pt-2 pr-0 col-lg-6 background-row align-items-center border rounded">
                 <h2 class="col-12 mb-0 pt-1 font-carrinho font-preco">Opções de Pagamento</h2>
                 <hr class="col-10 pt-0 pb-0 mb-1">
                 <div class="row align-items-center pl-3">
@@ -84,17 +83,17 @@
                     </div>
                 </div>
                 <form class="no-gutters">
-                    <div class="form-row col-lg-12 pt-2">
-                        <div class="row col-12 pr-0 align-items-center justify-content-end">
-                            <h2 class="col-auto font-cartao">Nome</h2>
+                    <div class="form-row col-lg-10 pt-2">
+                        <div class="row col-12 pr-0 align-items-center">
+                            <h2 class="col-4 font-cartao text-right">Nome</h2>
                             <input type="text" class="form-control col-8" placeholder="">
                         </div>
-                        <div class="row col-12 pr-0 align-items-center justify-content-end pt-3">
-                            <h2 class="col-3 col-lg-auto font-cartao">Numero Cartão</h2>
+                        <div class="row col-12 pr-0 align-items-center pt-3">
+                            <h2 class="col-4 text-right font-cartao">Numero Cartão</h2>
                             <input type="text" class="form-control col-8" placeholder="">
                         </div>
-                        <div class="row col-12 pr-0 align-items-center justify-content-end">
-                            <h2 class="col-auto pt-3 mb-0 col-lg-auto font-cartao">Validade</h2>
+                        <div class="row col-12 pr-0 align-items-center">
+                            <h2 class="col-4 text-right pt-3 mb-0 font-cartao">Validade</h2>
                             <div class="row col-8 no-gutters px-0 align-items-center">
                                 <div class="col-3 pt-3">
                                     <select class="custom-select my-1 mr-sm-2 pr-0 pl-1 text-center"
@@ -138,7 +137,7 @@
                             </div>
                         </div>
                         <div class="row col-12 pr-0 align-items-center justify-content-end">
-                            <h2 class="col-3 pt-3 mb-0 font-cartao">Codigo Segurança</h2>
+                            <h2 class="col-4 text-right pt-3 mb-0 font-cartao">Codigo Segurança</h2>
                             <div class="row col-8 pt-3 no-gutters px-0">
                                 <input type="text" class="form-control col-2 text-center" placeholder="">
                             </div>
@@ -157,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row pt-3 pr-0 col-lg-6 background-row align-items-center border rounded">
+            <div class="pt-2 pr-0 col-lg-6 background-row align-items-center border rounded">
                 <h2 class="col-12 mb-1 font-carrinho font-preco">Opções de Entrega</h2>
                 <hr class="col-10 mb-1">
                 <div class="row align-items-center pl-3">
@@ -179,25 +178,25 @@
                     </div>
                 </div>
                 <form class="no-gutters">
-                    <div class="form-row col-lg-12 pt-2">
-                        <div class="row col-12 pr-0 align-items-center justify-content-end">
-                            <h2 class="col-auto font-cartao">Endereço</h2>
+                    <div class="form-row col-lg-10 pt-2">
+                        <div class="row col-12 pr-0 align-items-center">
+                            <h2 class="col-4 text-right font-cartao">Endereço</h2>
                             <input type="text" class="form-control col-8" placeholder="Ex: Av. Paulista, 1374">
                         </div>
-                        <div class="row col-12 pr-0 pt-3 align-items-center justify-content-end">
-                            <h2 class="col-auto font-cartao">Bairro</h2>
+                        <div class="row col-12 pr-0 pt-3 align-items-center">
+                            <h2 class="col-4 text-right font-cartao">Bairro</h2>
                             <input type="text" class="form-control col-8" placeholder="Ex: Bela Vista">
                         </div>
-                        <div class="row col-12 pr-0 align-items-center justify-content-end pt-3">
-                            <h2 class="col-3 col-lg-auto font-cartao">Cidade</h2>
+                        <div class="row col-12 pr-0 align-items-center pt-3">
+                            <h2 class="col-4 text-right font-cartao">Cidade</h2>
                             <input type="text" class="form-control col-8" placeholder="Ex: São Paulo">
                         </div>
-                        <div class="row col-12 pr-0 align-items-center justify-content-end pt-3">
-                            <h2 class="col-3 col-lg-auto font-cartao">Estado</h2>
+                        <div class="row col-12 pr-0 align-items-center pt-3">
+                            <h2 class="col-4 text-right font-cartao">Estado</h2>
                             <input type="text" class="form-control col-8" placeholder="Ex: São Paulo">
                         </div>
-                        <div class="row col-12 pr-0 align-items-center justify-content-end">
-                            <h2 class="col-auto pt-3 mb-0 col-lg-auto font-cartao">CEP</h2>
+                        <div class="row col-12 pr-0 align-items-center">
+                            <h2 class="col-4 text-right pt-3 mb-0 font-cartao">CEP</h2>
                             <div class="row col-8 no-gutters px-0 align-items-center">
                                 <div class="col-10 pt-3">
                                     <input type="text" class="form-control col-8" placeholder="Ex: 01310-916">
@@ -209,9 +208,9 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid">
-        <div class="row pt-3 col-8 justify-content-end ">
-            <button class="btn btn-primary col-auto">Finalizar Compra</button>
+    <section class="container-fluid px-0">
+        <div class="row py-2 col-lg-12 justify-content-end px-1 mx-0">
+            <button class="btn btn-primary col-lg-2 col-12">Finalizar Compra</button>
         </div>
     </section>
 </body>
